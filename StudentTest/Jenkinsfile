@@ -23,7 +23,7 @@ pipeline{
 		     stage('Junit test Stage'){
 			steps{
 				
-				junit 'Student/target/surefire-reports/*.xml'
+				junit 'StudentTest/target/surefire-reports/*.xml'
 		    }
 	    }
 	  stage('ansible-deploy'){
