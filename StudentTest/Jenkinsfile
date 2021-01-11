@@ -9,10 +9,10 @@ pipeline{
           cd StudentTest
           mvn compile 
     '''
-		    }
+		    } 
 	    }
 	     
-	    stage('QA test Stage'){
+	    stage('QA test Stage') {
 			steps{
 					sh '''
           cd StudentTest
